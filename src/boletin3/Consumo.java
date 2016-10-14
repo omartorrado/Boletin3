@@ -29,9 +29,15 @@ public class Consumo {
     }
     //Metodos
     //Mejorar este metodo pàra que de el tiempo en h,m y s
-    public float getTiempo(){
-        float floathoras= km/vMed;
-        return floathoras;
+    public String getTiempo(){
+//        float horas= km/vMed;
+//        return horas;
+        int horas, minutos, segundos;
+        horas = (int) (km/vMed);
+        minutos = (int) (((km/vMed)-horas)*60);
+        segundos = (int) (((((km/vMed)-horas)*60)-minutos)*60);
+        System.out.println((km/vMed)+"  "+(((km/vMed)-horas)*60));
+        return horas+"h "+minutos+"m "+segundos+"s";
     }
     
     public float consumoMedio(){

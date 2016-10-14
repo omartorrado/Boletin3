@@ -26,6 +26,8 @@ public class Boletin3 {
         System.out.println(coche2.getKM()+" "+coche2.getLitros()+" "+coche2.getVMed()+" "+coche2.getPGas());
         System.out.println(coche1.getTiempo());
         System.out.println(coche2.getTiempo());
+        Consumo coche3 = new Consumo(437,92,97,37);
+        System.out.println(coche3.getTiempo());
     }
     
 }
