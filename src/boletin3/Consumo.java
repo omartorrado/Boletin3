@@ -28,10 +28,14 @@ public class Consumo {
         pGas=d;
     }
     //Metodos
-    //Mejorar este metodo pàra que de el tiempo en h,m y s
-    public String getTiempo(){
+//Metodo para obtener el tiempo en horas con float
+//    public float getTiempo(){
 //        float horas= km/vMed;
 //        return horas;
+//    }
+    //Cambiado el metodo anterior pàra que de el tiempo en h,m y s
+    public String getTiempo(){
+
         int horas, minutos, segundos;
         horas = (int) (km/vMed);
         minutos = (int) (((km/vMed)-horas)*60);
