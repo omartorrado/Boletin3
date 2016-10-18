@@ -31,13 +31,16 @@ public class Boletin3 {
         
         //Ejercicio 1
         Consumo coche1 = new Consumo();
+        coche1.ver_atributos();
         coche1.setLitros(50);
+        coche1.ver_atributos();
         coche1.setPGas(1.57f);
+        coche1.ver_atributos();
         Consumo coche2 = new Consumo(500,43,98.2f,1.57f);
+        coche2.ver_atributos();
         System.out.println(coche2.consumoMedio()+" litros cada 100 Km");
         coche2.setLitros(90);
         System.out.println(coche2.getVMed()+" Km/h");
-        coche1.ver_atributos();
         coche2.ver_atributos();
     }
     
