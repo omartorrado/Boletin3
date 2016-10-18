@@ -49,8 +49,7 @@ public class Consumo {
     }
     
     public float consumoEuros(){
-        float cm=consumoMedio();
-        return cm*pGas;
+        return litros*pGas;
     }
     
     public void setKm(float n){
