@@ -37,6 +37,8 @@ public class Boletin3 {
         System.out.println(coche2.consumoMedio()+" litros cada 100 Km");
         coche2.setLitros(90);
         System.out.println(coche2.getVMed()+" Km/h");
+        coche1.ver_atributos();
+        coche2.ver_atributos();
     }
     
 }

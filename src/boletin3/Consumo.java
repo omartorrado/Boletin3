@@ -76,5 +76,9 @@ public class Consumo {
     public float getPGas(){
         return pGas;
     }
+    public void ver_atributos(){
+        System.out.println("Km= "+km+" litros= "+litros+" Velocidad media= "
+                +vMed+" Precio gasolina= "+pGas);
+    }
     
 }
